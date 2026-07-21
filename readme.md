@@ -6,9 +6,6 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1500&color=FF6B00&center=true&vCenter=true&width=600&lines=Recon+%E2%86%92+Exploit+%E2%86%92+Report+%E2%86%92+Repeat;Building+security+tools+one+bug+at+a+time" />
 </a>
 
-<img src="https://komarev.com/ghpvc/?username=sohamgodbole28&color=FF6B00&style=flat-square&label=Profile+Views"/>
-<img src="https://img.shields.io/github/followers/sohamgodbole28?style=flat-square&color=FF6B00&labelColor=0D0D0D"/>
-
 </div>
 
 ---
