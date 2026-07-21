@@ -20,7 +20,7 @@ I'm an IT undergrad (CGPA 9.55/10) focused on **web application penetration test
 <img src="https://img.shields.io/badge/Burp_Suite-FF6B00?style=for-the-badge&logo=burpsuite&logoColor=0D0D0D&labelColor=0D0D0D"/>
 <img src="https://img.shields.io/badge/Kali_Linux-FF6B00?style=for-the-badge&logo=kalilinux&logoColor=0D0D0D&labelColor=0D0D0D"/>
 <img src="https://img.shields.io/badge/Wireshark-FF6B00?style=for-the-badge&logo=wireshark&logoColor=0D0D0D&labelColor=0D0D0D"/>
-<img src="https://img.shields.io/badge/Hack_The_Box-FF6B00?style=for-the-badge&logo=hackthebox&logoColor=0D0D0D&labelColor=0D0D0D"/>
+<img src="https://img.shields.io/badge/Hack_The_Box-FF6B00?style=for-the-badge&logo=tryhackme&logoColor=0D0D0D&labelColor=0D0D0D"/>
 <br/>
 <img src="https://img.shields.io/badge/Nmap-0D0D0D?style=for-the-badge&labelColor=FF6B00&color=0D0D0D"/>
 <img src="https://img.shields.io/badge/Metasploit-0D0D0D?style=for-the-badge&labelColor=FF6B00&color=0D0D0D"/>
