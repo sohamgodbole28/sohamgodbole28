@@ -16,7 +16,21 @@
 I'm an IT undergrad (CGPA 9.55/10) focused on **web application penetration testing** and **security tool development** — I spend most of my time in Burp Suite finding what OWASP Top 10 issues look like in the wild, then writing my own tools when the existing ones don't do quite what I need.
 
 <div align="center">
+
+<img src="https://img.shields.io/badge/Burp_Suite-FF6B00?style=for-the-badge&logo=burpsuite&logoColor=0D0D0D&labelColor=0D0D0D"/>
+<img src="https://img.shields.io/badge/Kali_Linux-FF6B00?style=for-the-badge&logo=kalilinux&logoColor=0D0D0D&labelColor=0D0D0D"/>
+<img src="https://img.shields.io/badge/Wireshark-FF6B00?style=for-the-badge&logo=wireshark&logoColor=0D0D0D&labelColor=0D0D0D"/>
+<img src="https://img.shields.io/badge/Hack_The_Box-FF6B00?style=for-the-badge&logo=hackthebox&logoColor=0D0D0D&labelColor=0D0D0D"/>
+<br/>
+<img src="https://img.shields.io/badge/Nmap-0D0D0D?style=for-the-badge&labelColor=FF6B00&color=0D0D0D"/>
+<img src="https://img.shields.io/badge/Metasploit-0D0D0D?style=for-the-badge&labelColor=FF6B00&color=0D0D0D"/>
+<img src="https://img.shields.io/badge/Nuclei-0D0D0D?style=for-the-badge&labelColor=FF6B00&color=0D0D0D"/>
+<img src="https://img.shields.io/badge/Gobuster-0D0D0D?style=for-the-badge&labelColor=FF6B00&color=0D0D0D"/>
+<img src="https://img.shields.io/badge/OWASP_Top_10-0D0D0D?style=for-the-badge&labelColor=FF6B00&color=0D0D0D"/>
+
+<sub>dev stack</sub><br/>
 <img src="https://skillicons.dev/icons?i=py,js,cpp,fastapi,react,nodejs,postgres,mysql,mongodb,linux,git,github&theme=dark" />
+
 </div>
 
 ---
