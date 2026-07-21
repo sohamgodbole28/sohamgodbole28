@@ -92,24 +92,6 @@ Validated SQLi, XSS, CSRF, IDOR, auth, and session-management flaws across DVWA,
 
 ---
 
-### 📡 Live from the terminal
-
-```bash
-$ recon --target webapp.internal --profile owasp-top10
-
-[+] Host discovery ............................ complete
-[+] Port scan (nmap -sV) ...................... 4 open services
-[+] Directory enumeration (gobuster) .......... 218 paths found
-[+] Auth flow analysis ........................ 2 findings
-[+] IDOR check on /api/v1/user/{id} ........... VULNERABLE
-[+] Vulnerability template match (nuclei) ..... 12 templates fired
-
-[!] scan complete — 3 high, 5 medium, 4 low findings
-[!] full report generating...
-```
-
----
-
 ### 🎯 Skill radar & mission log
 
 <table align="center" width="100%">
