@@ -124,10 +124,10 @@ Validated SQLi, XSS, CSRF, IDOR, auth, and session-management flaws across DVWA,
 ### 📬 Get in touch
 
 <p align="center">
-<a href="https://www.linkedin.com/in/soham-godbole-458b42320/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-FF6B00?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D0D0D"/></a>
-<a href="https://github.com/sohamgodbole28" target="_blank"><img src="https://img.shields.io/badge/GitHub-FF6B00?style=for-the-badge&logo=github&logoColor=white&labelColor=0D0D0D"/></a>
-<a href="mailto:sohamgodbole21@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-FF6B00?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D0D0D"/></a>
-<a href="https://soham-godbole.netlify.app" target="_blank"><img src="https://img.shields.io/badge/Portfolio-FF6B00?style=for-the-badge&logo=firefox&logoColor=white&labelColor=0D0D0D"/></a>
+<a href="https://www.linkedin.com/in/soham-godbole-458b42320/" target="_blank" ><img src="https://img.shields.io/badge/LinkedIn-FF6B00?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D0D0D"/></a>
+<a href="https://github.com/sohamgodbole28" target="_blank" ><img src="https://img.shields.io/badge/GitHub-FF6B00?style=for-the-badge&logo=github&logoColor=white&labelColor=0D0D0D"/></a>
+<a href="mailto:sohamgodbole21@gmail.com" target="_blank" ><img src="https://img.shields.io/badge/Email-FF6B00?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D0D0D"/></a>
+<a href="https://soham-godbole.netlify.app" target="_blank" ><img src="https://img.shields.io/badge/Portfolio-FF6B00?style=for-the-badge&logo=firefox&logoColor=white&labelColor=0D0D0D"/></a>
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0D0D,50:FF6B00,100:0D0D0D&height=100&section=footer" width="100%"/>
