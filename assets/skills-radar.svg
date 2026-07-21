@@ -60,7 +60,7 @@
     <text x="119" y="83" text-anchor="start">Tool Building</text>
     <text x="0" y="140" text-anchor="middle">Reporting</text>
     <text x="-119" y="83" text-anchor="end">Network Sec</text>
-    <text x="-119" y="-79" text-anchor="end">Exploit Dev</text>
+    <text x="-119" y="-79" text-anchor="end">Bug Bounty</text>
   </g>
 
 </g>
