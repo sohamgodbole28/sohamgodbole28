@@ -1,0 +1,69 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Soham Godbole — animated banner</title>
+<defs>
+  <radialGradient id="bgGlow" cx="78%" cy="50%" r="65%">
+    <stop offset="0%" stop-color="#1a1206"/>
+    <stop offset="60%" stop-color="#0d0d0d"/>
+    <stop offset="100%" stop-color="#050505"/>
+  </radialGradient>
+  <linearGradient id="sweepFade" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#FF6B00" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#FF6B00" stop-opacity="0.55"/>
+  </linearGradient>
+  <clipPath id="frame"><rect x="0" y="0" width="1200" height="300" rx="10"/></clipPath>
+</defs>
+
+<g clip-path="url(#frame)">
+  <rect width="1200" height="300" fill="url(#bgGlow)"/>
+
+  <g stroke="#2a2a2a" stroke-width="0.5">
+    <line x1="0" y1="60" x2="1200" y2="60"/>
+    <line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/>
+  </g>
+
+  <g transform="translate(920,150)">
+    <circle r="120" fill="none" stroke="#3a2410" stroke-width="1"/>
+    <circle r="85" fill="none" stroke="#3a2410" stroke-width="1"/>
+    <circle r="50" fill="none" stroke="#3a2410" stroke-width="1"/>
+
+    <g>
+      <path d="M0,0 L0,-120 A120,120 0 0,1 60,-104 Z" fill="url(#sweepFade)"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="6s" repeatCount="indefinite"/>
+    </g>
+
+    <g stroke="#FF6B00" stroke-width="2.5" fill="none" stroke-linecap="round">
+      <path d="M0,0 C 35,-8 45,-38 20,-58 C 0,-74 -22,-58 -14,-38 C -8,-24 8,-24 6,-10">
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="18s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <circle r="4" fill="#FF6B00">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="18s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g fill="#FF6B00" opacity="0.55">
+    <path d="M0,0 C6,-8 16,-8 20,0 C16,10 6,10 0,0 Z" transform="translate(140,40) rotate(20) scale(0.8)">
+      <animateTransform attributeName="transform" type="translate" values="140,40; 160,260" dur="9s" repeatCount="indefinite" additive="sum"/>
+      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="4s" repeatCount="indefinite" additive="sum"/>
+    </path>
+    <path d="M0,0 C6,-8 16,-8 20,0 C16,10 6,10 0,0 Z" transform="translate(260,-20) scale(0.6)">
+      <animateTransform attributeName="transform" type="translate" values="260,-20; 230,280" dur="12s" repeatCount="indefinite" additive="sum"/>
+      <animateTransform attributeName="transform" type="rotate" values="0;-360" dur="5s" repeatCount="indefinite" additive="sum"/>
+    </path>
+    <path d="M0,0 C6,-8 16,-8 20,0 C16,10 6,10 0,0 Z" transform="translate(60,-40) scale(0.5)">
+      <animateTransform attributeName="transform" type="translate" values="60,-40; 40,300" dur="10s" repeatCount="indefinite" additive="sum"/>
+      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="6s" repeatCount="indefinite" additive="sum"/>
+    </path>
+  </g>
+
+  <text x="60" y="140" font-family="Verdana, Arial, sans-serif" font-size="46" font-weight="700" fill="#FFFFFF">SOHAM GODBOLE</text>
+  <text x="61" y="140" font-family="Verdana, Arial, sans-serif" font-size="46" font-weight="700" fill="#FF6B00" opacity="0.25">SOHAM GODBOLE</text>
+  <text x="60" y="175" font-family="Verdana, Arial, sans-serif" font-size="18" fill="#c9c9c9">Web Application Penetration Tester · AppSec · Tool Builder</text>
+
+  <rect x="60" y="200" width="0" height="3" fill="#FF6B00">
+    <animate attributeName="width" values="0;360;360;0" keyTimes="0;0.5;0.85;1" dur="5s" repeatCount="indefinite"/>
+  </rect>
+</g>
+</svg>
