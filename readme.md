@@ -23,32 +23,54 @@ I'm an IT undergrad (CGPA 9.55/10) focused on **web application penetration test
 
 ### 🛡️ Featured builds
 
-<table align="center">
+<table align="center" width="100%">
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top" align="center">
 
-**AttackLens**
-`Python · FastAPI · React · YAML`
+<img src="https://img.shields.io/badge/●-S--RANK-FF6B00?style=flat-square&labelColor=0D0D0D"/>
 
-Rule-based engine that inspects HTTP traffic and flags OWASP Top 10 issues — IDOR, broken access control, auth flaws — with a live dashboard for scoring and remediation guidance.
+#### AttackLens
+*Rule-based web app security analysis engine*
+
+<img src="https://img.shields.io/badge/Python-0D0D0D?style=flat-square&logo=python&logoColor=FF6B00"/>
+<img src="https://img.shields.io/badge/FastAPI-0D0D0D?style=flat-square&logo=fastapi&logoColor=FF6B00"/>
+<img src="https://img.shields.io/badge/React-0D0D0D?style=flat-square&logo=react&logoColor=FF6B00"/>
+
+Inspects live HTTP traffic and flags OWASP Top 10 issues — IDOR, broken access control, auth flaws — with a dashboard for vulnerability scoring and remediation guidance.
+
+`IDOR` `Broken Access Control` `Auth Flaws` `File Upload`
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top" align="center">
 
-**Auto-B**
-`Python · YAML · Linux`
+<img src="https://img.shields.io/badge/●-S--RANK-FF6B00?style=flat-square&labelColor=0D0D0D"/>
 
-Autonomous bug-bounty recon framework. Configurable, stage-based execution pipeline with resumable runs and a plugin-friendly architecture.
+#### Auto-B
+*Autonomous bug bounty recon framework*
+
+<img src="https://img.shields.io/badge/Python-0D0D0D?style=flat-square&logo=python&logoColor=FF6B00"/>
+<img src="https://img.shields.io/badge/YAML-0D0D0D?style=flat-square&logo=yaml&logoColor=FF6B00"/>
+<img src="https://img.shields.io/badge/Linux-0D0D0D?style=flat-square&logo=linux&logoColor=FF6B00"/>
+
+Automates bug-bounty enumeration through a configurable, stage-based execution pipeline — resumable runs, structured logging, plugin-ready architecture.
+
+`Enumeration` `Automation` `Pipeline Orchestration`
 
 </td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
+<td width="33%" valign="top" align="center">
 
-**Web Application Security Assessment Lab**
-`Burp Suite · Kali Linux · PortSwigger · DVWA · TryHackMe`
+<img src="https://img.shields.io/badge/●-A--RANK-FF6B00?style=flat-square&labelColor=0D0D0D"/>
 
-Hands-on validation of SQLi, XSS, CSRF, IDOR, authentication, and session-management vulnerabilities, documented with proof-of-concept exploits and remediation notes.
+#### AppSec Assessment Lab
+*Hands-on vulnerability validation*
+
+<img src="https://img.shields.io/badge/Burp_Suite-0D0D0D?style=flat-square&logo=burpsuite&logoColor=FF6B00"/>
+<img src="https://img.shields.io/badge/Kali-0D0D0D?style=flat-square&logo=kalilinux&logoColor=FF6B00"/>
+<img src="https://img.shields.io/badge/DVWA-0D0D0D?style=flat-square&logoColor=FF6B00"/>
+
+Validated SQLi, XSS, CSRF, IDOR, auth, and session-management flaws across DVWA, PortSwigger, and TryHackMe, each with a documented PoC and fix.
+
+`SQLi` `XSS` `CSRF` `Session Mgmt`
 
 </td>
 </tr>
@@ -56,36 +78,50 @@ Hands-on validation of SQLi, XSS, CSRF, IDOR, authentication, and session-manage
 
 ---
 
-### 🏆 Trophy case
+### 📡 Live from the terminal
 
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=sohamgodbole28&theme=dracula&no-frame=true&no-bg=true&margin-w=8&column=4" />
-</div>
+```bash
+$ recon --target webapp.internal --profile owasp-top10
 
-- 🥈 2nd Place — College CTF Competition
-- 🎖️ Top 5 Performer — COEP Cybersecurity Bootcamp CTF Challenges
-- 🎫 DEF CON Pune 2026 attendee
-- ✅ Cisco Ethical Hacker · Cisco Networking Fundamentals · IBM SkillsBuild AI
-- 🔄 Currently training for **CEH** and **VAPT**
+[+] Host discovery ............................ complete
+[+] Port scan (nmap -sV) ...................... 4 open services
+[+] Directory enumeration (gobuster) .......... 218 paths found
+[+] Auth flow analysis ........................ 2 findings
+[+] IDOR check on /api/v1/user/{id} ........... VULNERABLE
+[+] Vulnerability template match (nuclei) ..... 12 templates fired
+
+[!] scan complete — 3 high, 5 medium, 4 low findings
+[!] full report generating...
+```
 
 ---
 
-### 📊 Stats
+### 🎯 Skill radar & mission log
 
-<div align="center">
+<table align="center" width="100%">
+<tr>
+<td width="55%" align="center">
+<img src="./assets/skills-radar.svg" width="100%"/>
+</td>
+<td width="45%" valign="top">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=sohamgodbole28&show_icons=true&hide_border=true&bg_color=0D0D0D&title_color=FF6B00&icon_color=FF6B00&text_color=FFFFFF&border_color=FF6B00"/>
-<img height="165" src="https://streak-stats.demolab.com/?user=sohamgodbole28&hide_border=true&background=0D0D0D&stroke=FF6B00&ring=FF6B00&fire=FF6B00&currStreakLabel=FF6B00&sideLabels=FFFFFF&sideNums=FFFFFF&dates=888888"/>
+**🏆 Missions cleared**
+- 🥈 2nd Place — College CTF Competition
+- 🎖️ Top 5 — COEP Cybersecurity Bootcamp CTF
+- 🎫 DEF CON Pune 2026 attendee
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sohamgodbole28&layout=compact&hide_border=true&bg_color=0D0D0D&title_color=FF6B00&text_color=FFFFFF&border_color=FF6B00" height="165"/>
+**✅ Certifications**
+- Cisco Ethical Hacker
+- Cisco Networking Fundamentals
+- IBM SkillsBuild AI
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=sohamgodbole28&theme=react-dark&bg_color=0D0D0D&color=FF6B00&line=FF6B00&point=FFFFFF&hide_border=true" width="90%"/>
+**🔄 In progress**
+- CEH (Certified Ethical Hacker)
+- VAPT (Vulnerability Assessment & Penetration Testing)
 
-</div>
-
-<!-- SNAKE_START -->
-<img src="https://raw.githubusercontent.com/sohamgodbole28/sohamgodbole28/output/snake-dark.svg" width="100%"/>
-<!-- SNAKE_END -->
+</td>
+</tr>
+</table>
 
 ---
 
