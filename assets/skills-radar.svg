@@ -1,0 +1,68 @@
+<svg width="700" height="500" viewBox="0 0 700 500" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Security skill radar</title>
+<defs>
+  <radialGradient id="polyFill" cx="50%" cy="50%" r="60%">
+    <stop offset="0%" stop-color="#FF6B00" stop-opacity="0.55"/>
+    <stop offset="100%" stop-color="#FF6B00" stop-opacity="0.18"/>
+  </radialGradient>
+  <linearGradient id="sweep2" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#FF6B00" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#FF6B00" stop-opacity="0.35"/>
+  </linearGradient>
+</defs>
+
+<rect width="700" height="500" rx="10" fill="#0D0D0D"/>
+
+<text x="350" y="42" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">Security skill radar</text>
+<text x="350" y="64" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="12" fill="#8a8a8a">self-assessed, updated periodically</text>
+
+<g transform="translate(280,270)">
+
+  <g stroke="#2a2010" stroke-width="1" fill="none">
+    <polygon points="0.0,-20.0 17.3,-10.0 17.3,10.0 0.0,20.0 -17.3,10.0 -17.3,-10.0"/>
+    <polygon points="0.0,-40.0 34.6,-20.0 34.6,20.0 0.0,40.0 -34.6,20.0 -34.6,-20.0"/>
+    <polygon points="0.0,-60.0 52.0,-30.0 52.0,30.0 0.0,60.0 -52.0,30.0 -52.0,-30.0"/>
+    <polygon points="0.0,-80.0 69.3,-40.0 69.3,40.0 0.0,80.0 -69.3,40.0 -69.3,-40.0"/>
+    <polygon points="0.0,-100.0 86.6,-50.0 86.6,50.0 0.0,100.0 -86.6,50.0 -86.6,-50.0"/>
+  </g>
+
+  <g stroke="#3a2a15" stroke-width="0.75">
+    <line x1="0" y1="0" x2="0" y2="-100"/>
+    <line x1="0" y1="0" x2="86.6" y2="-50"/>
+    <line x1="0" y1="0" x2="86.6" y2="50"/>
+    <line x1="0" y1="0" x2="0" y2="100"/>
+    <line x1="0" y1="0" x2="-86.6" y2="50"/>
+    <line x1="0" y1="0" x2="-86.6" y2="-50"/>
+  </g>
+
+  <g>
+    <path d="M0,0 L0,-100 A100,100 0 0,1 50,-86.6 Z" fill="url(#sweep2)">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="8s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <polygon points="0.0,-100.0 77.9,-45.0 77.9,45.0 0.0,80.0 -60.6,35.0 -60.6,-35.0" fill="url(#polyFill)" stroke="#FF6B00" stroke-width="1.5">
+    <animate attributeName="opacity" values="0.75;1;0.75" dur="3.5s" repeatCount="indefinite"/>
+  </polygon>
+
+  <g fill="#FF6B00">
+    <circle cx="0.0" cy="-100.0" r="3.5"/>
+    <circle cx="77.9" cy="-45.0" r="3.5"/>
+    <circle cx="77.9" cy="45.0" r="3.5"/>
+    <circle cx="0.0" cy="80.0" r="3.5"/>
+    <circle cx="-60.6" cy="35.0" r="3.5"/>
+    <circle cx="-60.6" cy="-35.0" r="3.5"/>
+  </g>
+
+  <g font-family="Verdana, Arial, sans-serif" font-size="13" fill="#e8e8e8">
+    <text x="0" y="-124" text-anchor="middle">Web AppSec</text>
+    <text x="119" y="-79" text-anchor="start">Recon &amp; Enum</text>
+    <text x="119" y="83" text-anchor="start">Tool Building</text>
+    <text x="0" y="140" text-anchor="middle">Reporting</text>
+    <text x="-119" y="83" text-anchor="end">Network Sec</text>
+    <text x="-119" y="-79" text-anchor="end">Exploit Dev</text>
+  </g>
+
+</g>
+
+</svg>
